@@ -7,7 +7,7 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
 }
 
@@ -24,8 +24,8 @@ body {
 
 .inner-card {
     background-color: #E1F0F0;
+    border-radius: 20px;
     margin: 10px;
-    border-radius: 8px;
     height: calc(100% - 20px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -33,7 +33,6 @@ body {
     align-items: center;
     flex: 1;
 }
-
 
 .card-heading {
     color: #008080;
